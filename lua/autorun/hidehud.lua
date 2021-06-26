@@ -24,19 +24,31 @@ local portalmaps = {
     "escape_02",
 }
 
+GM = {}
+
 hook.Add( "HUDShouldDraw", "HideHUD", function( name )
     for _,v in pairs(portalmaps) do
         if (game.GetMap() == v) then
             if ( tohide[name] ) then
                 return false
             end
-            
         end
     end
 
     -- Don't return anything here, it may break other addons that rely on this hook.
 end )
 
+for _,v in pairs(portalmaps) do
+    if (game.GetMap() == v) then
+		for k, ply in pairs(player.GetAll()) do
+			if IsValid(ply) then
+				ply:SetWalkSpeed(150)
+				ply:SetRunSpeed(150)
+				break
+			end
+		end
+	end
+end
 
 game.AddParticles( "particles/environment.pcf" )
 game.AddParticles( "particles/finale_fx.pcf" )

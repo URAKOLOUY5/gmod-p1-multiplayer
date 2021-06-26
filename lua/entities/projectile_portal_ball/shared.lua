@@ -2,7 +2,6 @@ AddCSLuaFile("shared.lua")
 
 if CLIENT then
 	game.AddParticles("particles/cleansers.pcf")
-	game.AddParticles("particles/portal_beta_particles.pcf")
 end
 
 ENT.Type = "anim"
@@ -16,36 +15,32 @@ PrecacheParticleSystem("portal_1_projectile_ball")
 PrecacheParticleSystem("portal_2_projectile_ball")
 PrecacheParticleSystem("portal_1_projectile_stream")
 PrecacheParticleSystem("portal_2_projectile_stream")
-PrecacheParticleSystem("portal_1_projectile_trail")
-PrecacheParticleSystem("portal_2_projectile_trail")
+
+
 
 function ENT:Initialize()
 	self.Entity:PhysicsInit(SOLID_VPHYSICS)
 	self.Entity:SetMoveType(MOVETYPE_VPHYSICS)
 	self.Entity:SetModel("models/dav0r/hoverball.mdl")
-	self.Entity:PhysicsInitSphere(1, "Metal")
+	self.Entity:PhysicsInitSphere(1,"Metal")
 	local phy = self.Entity:GetPhysicsObject()
 	if phy:IsValid() then
 		phy:EnableGravity(false)
 		phy:EnableDrag(false)
 	end
-	self.Entity:SetCollisionGroup(COLLISION_GROUP_NONE)
+	self.Entity:SetCollisionGroup(COLLISION_GROUP_WORLD)
 	self.Entity:DrawShadow(false)
 	self:SetNoDraw(false)
-	timer.Simple(
-		.01,
-		function()
-			if self:IsValid() then
-				self:SetNoDraw(true)
-			end
-		end
-	)
+	timer.Simple(.01,function() if self:IsValid() then self:SetNoDraw(true) end end)
+	
 end
 
 function ENT:SetEffects(type)
 	self:SetNWInt("Kind", type)
-
-	ParticleEffectAttach("portal_" .. type .. "_projectile_stream", PATTACH_ABSORIGIN_FOLLOW, self, 1)
+	
+	ParticleEffectAttach("portal_"..type.."_projectile_ball",PATTACH_ABSORIGIN_FOLLOW,self,1)
+	ParticleEffectAttach("portal_"..type.."_projectile_fiber",PATTACH_ABSORIGIN_FOLLOW,self,1)
+	
 end
 
 function ENT:GetKind(kind)
@@ -58,7 +53,7 @@ function ENT:GetGun()
 	return self.gun
 end
 
-function ENT:PhysicsCollide(data, phy)
+function ENT:PhysicsCollide(data,phy)
 	self.Entity:Remove()
 	-- print("Create Portal!")
 end
@@ -72,5 +67,5 @@ function ENT:Draw()
 end
 
 -- function ENT:Think()
--- self:SetPos(self:GetPos()+self:GetVelocity()*FrameTime())
+	-- self:SetPos(self:GetPos()+self:GetVelocity()*FrameTime())
 -- end

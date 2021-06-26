@@ -1,15 +1,10 @@
-"UnlitGeneric"
+"VertexlitGeneric"
 {
 	"$basetexture" "sprites/blborder"
-	"$translucent" "1"
-	"$frame" "15"
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedTextureVar" "$basetexture"
-			"animatedTextureFrameNumVar" "$frame"
-			"animatedTextureFrameRate" "30"
-		}
-	}
+	"%keywords" "invisible"
+	"$translucent" 1
+	"$halflambert" 1
+	"$model" 1
+	"$nocull" 1
+	
 }

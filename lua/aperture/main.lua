@@ -286,9 +286,6 @@ hook.Add(
 		for k, v in pairs(ents.FindByClass("ent_laser_field")) do
 			v:Drawing()
 		end
-		for k, v in pairs(ents.FindByClass("npc_portal_turret_floor")) do
-			v:Drawing()
-		end
 		for k, v in pairs(ents.FindByClass("npc_portal_rocket_turret")) do
 			v:Drawing()
 		end

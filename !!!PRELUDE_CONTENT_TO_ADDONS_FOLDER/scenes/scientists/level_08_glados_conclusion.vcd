@@ -1,0 +1,55 @@
+// Choreo version 1
+actor "last_scientist"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_conclusion-1"
+    {
+      time 0.106667 1.163402
+      param "Prelude.level_08_glados_conclusion-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_conclusion-2"
+    {
+      time 1.220000 2.819615
+      param "Prelude.level_08_glados_conclusion-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_conclusion-3"
+    {
+      time 2.873333 3.800408
+      param "Prelude.level_08_glados_conclusion-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_conclusion-4"
+    {
+      time 3.866667 5.048141
+      param "Prelude.level_08_glados_conclusion-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

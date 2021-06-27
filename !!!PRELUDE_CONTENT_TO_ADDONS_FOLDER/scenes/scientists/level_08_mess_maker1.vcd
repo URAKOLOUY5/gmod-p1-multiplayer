@@ -1,0 +1,59 @@
+// Choreo version 1
+actor "scientist_2"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_mess_maker-1"
+    {
+      time 0.053333 2.691315
+      param "Prelude.level_08_mess_maker-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time 0.000000 2.686667
+      param "!player"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_frustrated_point"
+    {
+      time 0.133333 2.266667
+      param "g_frustrated_point"
+      absolutetags playback_time
+      {
+        "in" 0.079365
+        "loop" 0.603175
+        "end" 0.698413
+        "out" 0.857143
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.079365
+        "loop" 0.603175
+        "end" 0.698413
+        "out" 0.857143
+      }
+    }
+  }
+  faceposermodel "models\Humans\Group01\male_02.mdl"
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_08.bsp"
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

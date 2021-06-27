@@ -1,0 +1,91 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "prelude.level_01_test_03_success-1"
+    {
+      time 0.486667 3.960794
+      param "prelude.level_01_test_03_success-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-2"
+    {
+      time 4.266667 7.797143
+      param "prelude.level_01_test_03_success-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-3"
+    {
+      time 7.973333 9.488729
+      param "prelude.level_01_test_03_success-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-4"
+    {
+      time 9.733334 13.240726
+      param "prelude.level_01_test_03_success-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-5"
+    {
+      time 13.300001 15.896804
+      param "prelude.level_01_test_03_success-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-6"
+    {
+      time 16.080000 21.010000
+      param "prelude.level_01_test_03_success-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_01_test_03_success-7"
+    {
+      time 21.173334 22.771383
+      param "prelude.level_01_test_03_success-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.066667 0.256667
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

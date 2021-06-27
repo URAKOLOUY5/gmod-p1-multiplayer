@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_2fort/lunchbag"
+	"$model"		"1"
+	"%keywords"		"portal,prelude"
+}

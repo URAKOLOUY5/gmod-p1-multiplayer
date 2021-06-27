@@ -1,0 +1,131 @@
+// Choreo version 1
+actor "scientist_23"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_meeting2-1"
+    {
+      time 0.113333 2.499864
+      param "Prelude.level_08_meeting2-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAt24"
+    {
+      time 0.000000 3.893333
+      param "scientist_24"
+    }
+  }
+  channel "face at"
+  {
+    event face "Face24"
+    {
+      time 0.000000 3.893333
+      param "scientist_24"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_plead_01"
+    {
+      time 0.026667 1.993333
+      param "g_plead_01"
+      absolutetags playback_time
+      {
+        "apex" 0.275862
+        "accent" 0.448276
+        "loop" 0.689655
+        "end" 0.862069
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.275862
+        "accent" 0.448276
+        "loop" 0.689655
+        "end" 0.862069
+      }
+    }
+    event gesture "g_pointleft_l"
+    {
+      time 1.306666 3.773333
+      param "g_pointleft_l"
+      absolutetags playback_time
+      {
+        "in" 0.068493
+        "loop" 0.397260
+        "end" 0.534247
+        "out" 0.712329
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.068493
+        "loop" 0.397260
+        "end" 0.534247
+        "out" 0.712329
+      }
+    }
+  }
+}
+
+actor "scientist_24"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_meeting2-2"
+    {
+      time 2.993333 3.899592
+      param "Prelude.level_08_meeting2-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAt23"
+    {
+      time 0.000000 3.893333
+      param "scientist_23"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "G_shrug"
+    {
+      time 2.800000 4.500000
+      param "G_shrug"
+      absolutetags playback_time
+      {
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      sequenceduration 1.700000
+    }
+  }
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_08.bsp"
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

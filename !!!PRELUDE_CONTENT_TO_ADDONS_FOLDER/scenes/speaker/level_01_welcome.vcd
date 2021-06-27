@@ -1,0 +1,163 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_01_welcome-1"
+    {
+      time 0.483333 4.307755
+      param "Prelude.level_01_welcome-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-2"
+    {
+      time 4.566667 9.064150
+      param "Prelude.level_01_welcome-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-3"
+    {
+      time 9.550000 13.830227
+      param "Prelude.level_01_welcome-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-4"
+    {
+      time 12.516666 16.523106
+      param "Prelude.level_01_welcome-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-4b"
+    {
+      time 14.950000 15.548820
+      param "Prelude.level_01_welcome-4b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-5"
+    {
+      time 16.783333 21.182720
+      param "Prelude.level_01_welcome-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-6"
+    {
+      time 21.000000 27.208889
+      param "Prelude.level_01_welcome-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-7"
+    {
+      time 27.033333 32.300747
+      param "Prelude.level_01_welcome-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-8"
+    {
+      time 32.700001 39.956692
+      param "Prelude.level_01_welcome-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-9"
+    {
+      time 40.400002 48.700001
+      param "Prelude.level_01_welcome-9"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-10"
+    {
+      time 48.933334 53.817688
+      param "Prelude.level_01_welcome-10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-11"
+    {
+      time 54.049999 60.571110
+      param "Prelude.level_01_welcome-11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-12"
+    {
+      time 60.933334 64.932655
+      param "Prelude.level_01_welcome-12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-13"
+    {
+      time 65.449997 69.398956
+      param "Prelude.level_01_welcome-13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.033333 0.223333
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_01_welcome-14"
+    {
+      time 69.583336 73.808868
+      param "Prelude.level_01_welcome-14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "98"
+}
+fps 60
+snap on
+ignorePhonemes off

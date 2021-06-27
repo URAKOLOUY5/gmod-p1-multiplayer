@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"decals/overlay_light_gradient_yellow"
+	"$translucent"	"1"
+	"$decal"		"1"
+	"$nocull"		"1"
+	"%keywords"		"portal,prelude"
+}

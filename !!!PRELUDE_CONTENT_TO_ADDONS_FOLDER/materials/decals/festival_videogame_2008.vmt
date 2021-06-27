@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"decals/festival_videogame_2008"
+	"$translucent"	"1"
+	"$decal"		"1"
+	"$decalscale"	"0.25"
+	"%keywords"		"portal,prelude"
+}

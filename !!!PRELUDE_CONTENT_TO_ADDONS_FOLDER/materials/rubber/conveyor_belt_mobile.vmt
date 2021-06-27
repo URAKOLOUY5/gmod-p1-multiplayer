@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"rubber/conveyor_belt"
+	"$surfaceprop"	"rubber"
+	"%keywords"		"portal,prelude"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar"		"$basetexturetransform"
+			"texturescrollrate"		"0.39"
+			"texturescrollangle"	"180"
+		}
+	}
+}

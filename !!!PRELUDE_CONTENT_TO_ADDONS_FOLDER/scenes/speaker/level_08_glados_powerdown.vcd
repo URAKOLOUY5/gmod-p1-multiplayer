@@ -1,0 +1,145 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_powerdown-1"
+    {
+      time 3.400001 8.224264
+      param "Prelude.level_08_glados_powerdown-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-2"
+    {
+      time 8.506668 12.242678
+      param "Prelude.level_08_glados_powerdown-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-3"
+    {
+      time 12.893335 18.033335
+      param "Prelude.level_08_glados_powerdown-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-4"
+    {
+      time 18.646667 23.017914
+      param "Prelude.level_08_glados_powerdown-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-5"
+    {
+      time 23.380003 29.521658
+      param "Prelude.level_08_glados_powerdown-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-6"
+    {
+      time 29.793335 33.787621
+      param "Prelude.level_08_glados_powerdown-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-7"
+    {
+      time 34.519997 39.635597
+      param "Prelude.level_08_glados_powerdown-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-8"
+    {
+      time 39.259998 41.386051
+      param "Prelude.level_08_glados_powerdown-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-9"
+    {
+      time 41.253330 42.637344
+      param "Prelude.level_08_glados_powerdown-9"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-10"
+    {
+      time 42.340000 43.666328
+      param "Prelude.level_08_glados_powerdown-10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-11"
+    {
+      time 43.619999 44.697414
+      param "Prelude.level_08_glados_powerdown-11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-12"
+    {
+      time 44.346664 45.051472
+      param "Prelude.level_08_glados_powerdown-12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-13"
+    {
+      time 45.053333 49.140091
+      param "Prelude.level_08_glados_powerdown-13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_powerdown-0"
+    {
+      time 0.100000 2.861837
+      param "Prelude.level_08_glados_powerdown-0"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

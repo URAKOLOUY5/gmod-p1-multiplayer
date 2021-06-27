@@ -1,8 +1,6 @@
 AddCSLuaFile()
 
-local WireAddon = WireAddon or WIRE_CLIENT_INSTALLED
-
-ENT.Editable = true
+ENT.Editable = false
 ENT.PrintName = "Aperture base class"
 ENT.AutomaticFrameAdvance = true
 ENT.Purpose = "Base for aperture SEnts"
@@ -12,12 +10,7 @@ ENT.AdminOnly = false
 
 ENT.IsAperture = true
 
-if WireAddon and ENT.IsConnectable then
-	DEFINE_BASECLASS("base_wire_entity")
-	ENT.WireDebugName = "Aperture Base"
-else
-	DEFINE_BASECLASS("base_gmodentity")
-end
+DEFINE_BASECLASS("base_gmodentity")
 
 -- function ENT:Initialize()
 

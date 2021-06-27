@@ -1,0 +1,151 @@
+// Choreo version 1
+actor "scientist_1"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_give_portalgun-1"
+    {
+      time 0.053333 2.579841
+      param "Prelude.level_08_give_portalgun-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_give_portalgun-2"
+    {
+      time 3.020000 4.837619
+      param "Prelude.level_08_give_portalgun-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_give_portalgun-3"
+    {
+      time 5.040000 8.650567
+      param "Prelude.level_08_give_portalgun-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_give_portalgun-4"
+    {
+      time 8.953334 11.011950
+      param "Prelude.level_08_give_portalgun-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time 0.000000 11.448718
+      param "!player"
+    }
+  }
+  channel "action"
+  {
+    event gesture "g_antman_dontmove"
+    {
+      time 4.884616 7.030770
+      param "g_antman_dontmove"
+      absolutetags playback_time
+      {
+        "apex" 0.157601
+        "extreme" 0.616766
+        "loop" 0.910180
+        "end" 1.000000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "extreme" 0.661765
+        "loop" 0.735294
+        "end" 0.852941
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "g_armsout"
+    {
+      time 7.089744 9.064103
+      param "g_armsout"
+      absolutetags playback_time
+      {
+        "apex" 0.222661
+        "accent" 0.513834
+        "loop" 0.582345
+        "end" 0.890646
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.068182
+        "accent" 0.227273
+        "loop" 0.420455
+        "end" 0.761364
+      }
+      sequenceduration 2.966667
+    }
+    event gesture "g_fist"
+    {
+      time 9.128205 11.428205
+      param "g_fist"
+      absolutetags playback_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "g_salute"
+    {
+      time 1.294872 3.928205
+      param "g_salute"
+      absolutetags playback_time
+      {
+        "apex" 0.256410
+        "accent" 0.641026
+        "loop" 0.666667
+        "end" 0.833333
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.256410
+        "accent" 0.641026
+        "loop" 0.666667
+        "end" 0.833333
+      }
+    }
+  }
+  channel "face at"
+  {
+    event face "FacePlayer"
+    {
+      time 0.000000 11.461538
+      param "!player"
+    }
+  }
+  faceposermodel "models\Humans\Group01\Male_01.mdl"
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_07.bsp"
+scalesettings
+{
+  "CChoreoView" "52"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

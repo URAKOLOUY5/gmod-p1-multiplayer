@@ -1,0 +1,13 @@
+// This is strictly for added a new map category. It is NOT an actual gamemode. 
+"nh2"
+{
+	"base"		"base"
+	"title"		"Portal Prelude"
+	"maps"		"level_|challenge_|advanced_"
+	"menusystem"	"0"
+
+	"settings"
+	{
+
+	}
+}

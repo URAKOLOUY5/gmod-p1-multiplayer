@@ -1,0 +1,73 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_musicspeak-1"
+    {
+      time 0.100000 5.100000
+      param "Prelude.level_08_glados_musicspeak-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_musicspeak-2"
+    {
+      time 5.153333 9.983334
+      param "Prelude.level_08_glados_musicspeak-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_musicspeak-3"
+    {
+      time 10.053333 13.103333
+      param "Prelude.level_08_glados_musicspeak-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_musicspeak-4"
+    {
+      time 13.153333 15.353333
+      param "Prelude.level_08_glados_musicspeak-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_musicspeak-5"
+    {
+      time 15.420000 19.020000
+      param "Prelude.level_08_glados_musicspeak-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_musicspeak-6"
+    {
+      time 19.106667 25.956667
+      param "Prelude.level_08_glados_musicspeak-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

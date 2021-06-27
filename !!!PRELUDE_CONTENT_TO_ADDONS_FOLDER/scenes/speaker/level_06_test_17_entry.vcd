@@ -1,0 +1,118 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "prelude.level_06_test_17_entry-1"
+    {
+      time 0.500000 3.268844
+      param "prelude.level_06_test_17_entry-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-2"
+    {
+      time 3.719999 6.592539
+      param "prelude.level_06_test_17_entry-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-3"
+    {
+      time 6.953333 11.683923
+      param "prelude.level_06_test_17_entry-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-4"
+    {
+      time 11.646667 14.306826
+      param "prelude.level_06_test_17_entry-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-5"
+    {
+      time 14.180000 17.992971
+      param "prelude.level_06_test_17_entry-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-6"
+    {
+      time 18.166668 20.307144
+      param "prelude.level_06_test_17_entry-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-7"
+    {
+      time 20.720001 22.290636
+      param "prelude.level_06_test_17_entry-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-8"
+    {
+      time 22.400002 26.671566
+      param "prelude.level_06_test_17_entry-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-9"
+    {
+      time 26.946669 31.661272
+      param "prelude.level_06_test_17_entry-9"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_06_test_17_entry-10"
+    {
+      time 31.973335 33.189365
+      param "prelude.level_06_test_17_entry-10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.033333 0.223333
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

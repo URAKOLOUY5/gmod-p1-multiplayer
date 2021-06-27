@@ -1,0 +1,73 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_03_test_10_success-1"
+    {
+      time 0.486667 6.095783
+      param "Prelude.level_03_test_10_success-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_03_test_10_success-2"
+    {
+      time 6.553333 10.734921
+      param "Prelude.level_03_test_10_success-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_03_test_10_success-3"
+    {
+      time 10.993334 13.426010
+      param "Prelude.level_03_test_10_success-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_03_test_10_success-4"
+    {
+      time 13.846667 15.107189
+      param "Prelude.level_03_test_10_success-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_03_test_10_success-5"
+    {
+      time 15.226667 16.976667
+      param "Prelude.level_03_test_10_success-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

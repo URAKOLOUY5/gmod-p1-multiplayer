@@ -1,0 +1,64 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "prelude.level_05_test_14_entry-1"
+    {
+      time 0.486666 4.339002
+      param "prelude.level_05_test_14_entry-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_05_test_14_entry-2"
+    {
+      time 4.579999 7.137891
+      param "prelude.level_05_test_14_entry-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_05_test_14_entry-3"
+    {
+      time 7.333333 12.566191
+      param "prelude.level_05_test_14_entry-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_05_test_14_entry-4"
+    {
+      time 12.713333 16.275873
+      param "prelude.level_05_test_14_entry-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

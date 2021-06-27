@@ -1,0 +1,91 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-1"
+    {
+      time 0.486667 3.396916
+      param "Prelude.level_05_test_15_broken-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-2"
+    {
+      time 3.280000 4.914490
+      param "Prelude.level_05_test_15_broken-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-3"
+    {
+      time 5.193333 7.355237
+      param "Prelude.level_05_test_15_broken-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-4"
+    {
+      time 7.433334 8.845670
+      param "Prelude.level_05_test_15_broken-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-5"
+    {
+      time 9.240001 10.780114
+      param "Prelude.level_05_test_15_broken-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-6"
+    {
+      time 10.886667 16.592178
+      param "Prelude.level_05_test_15_broken-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_broken-7"
+    {
+      time 16.699999 19.779432
+      param "Prelude.level_05_test_15_broken-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

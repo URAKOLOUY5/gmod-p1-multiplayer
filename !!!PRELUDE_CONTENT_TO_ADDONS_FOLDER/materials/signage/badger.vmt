@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/badger"
+	"$surfaceprop"	"watermelon"
+	"$translucent"	"1"
+	"$alphatest"	"1"
+	"$nocull"		"1"
+	"%keywords"		"portal,prelude"
+	
+	"Proxies" 
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"			"$basetexture"
+			"animatedtextureframenumvar"	"$frame"
+			"animatedtextureframerate"		"10.00"
+		}
+	}
+}

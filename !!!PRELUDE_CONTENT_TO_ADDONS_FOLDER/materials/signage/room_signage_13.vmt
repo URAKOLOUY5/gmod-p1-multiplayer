@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/room_signage_13"
+	"$surfaceprop"	"glass"
+	"$selfillum"	"1"
+	"%keywords"		"portal,prelude"
+	
+	"Proxies" 
+	{
+		"ToggleTexture"
+		{
+			"toggleTextureVar"			"$basetexture"
+			"toggleTextureFrameNumVar"	"$frame"
+			"toggleTextureShouldWrap"	"0"
+		}
+	}
+}

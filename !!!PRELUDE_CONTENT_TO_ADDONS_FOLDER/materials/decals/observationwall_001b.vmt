@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"concrete/observationwall_001b"
+	"$surfaceprop"	"concrete"
+	"$decal"		"1"
+	"%keywords"		"portal,prelude"
+}

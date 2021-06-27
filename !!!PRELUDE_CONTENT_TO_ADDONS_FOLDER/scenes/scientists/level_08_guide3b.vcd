@@ -1,0 +1,136 @@
+// Choreo version 1
+actor "scientist_28"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_guide3-4"
+    {
+      time 0.060000 4.542290
+      param "Prelude.level_08_guide3-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide3-5"
+    {
+      time 4.993333 5.991950
+      param "Prelude.level_08_guide3-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time 1.966667 5.986667
+      param "!player"
+    }
+  }
+  channel "face at"
+  {
+    event face "FacePlayer"
+    {
+      time 1.973333 5.986667
+      param "!player"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_pointright_l"
+    {
+      time 2.926666 4.893333
+      param "g_pointright_l"
+      absolutetags playback_time
+      {
+        "in" 0.086207
+        "loop" 0.431034
+        "end" 0.672414
+        "out" 0.913793
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.086207
+        "loop" 0.431034
+        "end" 0.672414
+        "out" 0.913793
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "G_shrug"
+    {
+      time 1.506667 3.206667
+      param "G_shrug"
+      absolutetags playback_time
+      {
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.160000
+        "accent" 0.240000
+        "loop" 0.320000
+        "end" 0.440000
+      }
+      sequenceduration 1.700000
+    }
+    event gesture "g_salute"
+    {
+      time 4.726666 7.360000
+      param "g_salute"
+      absolutetags playback_time
+      {
+        "apex" 0.256410
+        "accent" 0.641026
+        "loop" 0.666667
+        "end" 0.833333
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.256410
+        "accent" 0.641026
+        "loop" 0.666667
+        "end" 0.833333
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "GestureButton"
+    {
+      time 0.000000 2.133334
+      param "GestureButton"
+      absolutetags playback_time
+      {
+        "apex" 0.222222
+        "accent" 0.904762
+        "loop" 0.920635
+        "end" 0.936508
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.222222
+        "accent" 0.904762
+        "loop" 0.920635
+        "end" 0.936508
+      }
+      sequenceduration 2.133333
+    }
+  }
+  faceposermodel "models\Humans\Group01\Male_01.mdl"
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_08.bsp"
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

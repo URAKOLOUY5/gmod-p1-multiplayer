@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/room_signage_18left_small"
+	"$surfaceprop"	"glass"
+	"$selfillum"	"1"
+	"%keywords"		"portal,prelude"
+}

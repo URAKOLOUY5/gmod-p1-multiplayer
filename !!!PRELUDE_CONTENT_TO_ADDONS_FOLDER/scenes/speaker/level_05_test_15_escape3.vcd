@@ -1,0 +1,100 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-1"
+    {
+      time 0.500000 3.607143
+      param "Prelude.level_05_test_15_escape3-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-2"
+    {
+      time 3.753333 5.054716
+      param "Prelude.level_05_test_15_escape3-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-3"
+    {
+      time 5.193333 8.517641
+      param "Prelude.level_05_test_15_escape3-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-4"
+    {
+      time 8.713333 11.941973
+      param "Prelude.level_05_test_15_escape3-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-5"
+    {
+      time 12.493334 14.792268
+      param "Prelude.level_05_test_15_escape3-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-6"
+    {
+      time 15.126668 16.402088
+      param "Prelude.level_05_test_15_escape3-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-7"
+    {
+      time 16.733334 19.596554
+      param "Prelude.level_05_test_15_escape3-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_15_escape3-8"
+    {
+      time 19.973333 21.034512
+      param "Prelude.level_05_test_15_escape3-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

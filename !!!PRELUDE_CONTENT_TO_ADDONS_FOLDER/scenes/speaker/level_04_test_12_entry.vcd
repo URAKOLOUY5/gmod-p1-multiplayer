@@ -1,0 +1,91 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "prelude.level_04_test_12_entry-1"
+    {
+      time 0.493333 2.974013
+      param "prelude.level_04_test_12_entry-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-2"
+    {
+      time 3.480000 7.292018
+      param "prelude.level_04_test_12_entry-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-3"
+    {
+      time 7.480000 8.999343
+      param "prelude.level_04_test_12_entry-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-4"
+    {
+      time 9.360000 11.160770
+      param "prelude.level_04_test_12_entry-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-5"
+    {
+      time 11.553334 16.313244
+      param "prelude.level_04_test_12_entry-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-6"
+    {
+      time 16.513332 19.687731
+      param "prelude.level_04_test_12_entry-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "prelude.level_04_test_12_entry-7"
+    {
+      time 19.859999 22.839296
+      param "prelude.level_04_test_12_entry-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.033333 0.223333
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

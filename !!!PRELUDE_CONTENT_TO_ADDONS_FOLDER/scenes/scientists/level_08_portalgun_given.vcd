@@ -1,0 +1,84 @@
+// Choreo version 1
+actor "scientist_1"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_portalgun_given-1"
+    {
+      time 0.086667 3.027257
+      param "Prelude.level_08_portalgun_given-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_portalgun_given-2"
+    {
+      time 3.353333 5.623401
+      param "Prelude.level_08_portalgun_given-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_portalgun_given-3"
+    {
+      time 5.906667 7.138844
+      param "Prelude.level_08_portalgun_given-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time 0.000000 7.140000
+      param "!player"
+    }
+  }
+  channel "face at"
+  {
+    event face "FacePlayer"
+    {
+      time 0.000000 5.680000
+      param "!player"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "g_present"
+    {
+      time 3.046667 5.680001
+      param "g_present"
+      absolutetags playback_time
+      {
+        "apex" 0.192308
+        "accent" 0.474359
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.192308
+        "accent" 0.474359
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+  }
+  faceposermodel "models\Humans\Group01\Male_01.mdl"
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_07.bsp"
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"smb/smb_warp"
+	"$surfaceprop"	"default"
+	"%keywords"		"portal,prelude"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"skybox/black"
+	"$ignorez"		"1"
+	"$nofog"		"1"
+	"%keywords"		"portal,prelude"
+}

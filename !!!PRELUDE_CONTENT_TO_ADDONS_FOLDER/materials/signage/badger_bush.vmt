@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/badger_bush"
+	"$surfaceprop"	"watermelon"
+	"$translucent"	"1"
+	"$alphatest"	"1"
+	"$nocull"		"1"
+	"%keywords"		"portal,prelude"
+}

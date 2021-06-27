@@ -1,0 +1,73 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_firstspeak-1"
+    {
+      time 0.113333 6.213333
+      param "Prelude.level_08_glados_firstspeak-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_firstspeak-2"
+    {
+      time 6.286667 9.536667
+      param "Prelude.level_08_glados_firstspeak-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_firstspeak-3"
+    {
+      time 12.953333 14.103900
+      param "Prelude.level_08_glados_firstspeak-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_firstspeak-4"
+    {
+      time 14.386666 17.526667
+      param "Prelude.level_08_glados_firstspeak-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_firstspeak-5"
+    {
+      time 17.673334 20.553333
+      param "Prelude.level_08_glados_firstspeak-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_firstspeak-6"
+    {
+      time 19.840002 22.350002
+      param "Prelude.level_08_glados_firstspeak-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

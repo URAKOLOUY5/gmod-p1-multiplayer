@@ -106,18 +106,18 @@ function ENT:Think()
 		self.Entity:Remove()
 	end
 	
-	if !(self:GetNWBool( "isWoke" )) then
-		curiositySound = 1
-		curiositySoundDelay = 1
+	-- if !(self:GetNWBool( "isWoke" )) then
+		-- curiositySound = 1
+		-- curiositySoundDelay = 1
 
-		crazySound = 1
-		crazySoundDelay = 4.7
-		crazySoundStartWith = "Portal.Glados_core.Crazy_0"
+		-- crazySound = 1
+		-- crazySoundDelay = 4.7
+		-- crazySoundStartWith = "Portal.Glados_core.Crazy_0"
 		
-		agressiveSound = 0
-		agressiveSoundDelay = 1.22
-		agressiveSoundStartWith = "Portal.Glados_core.Aggressive_0"		
-	end	
+		-- agressiveSound = 0
+		-- agressiveSoundDelay = 1.22
+		-- agressiveSoundStartWith = "Portal.Glados_core.Aggressive_0"		
+	-- end	
 
 	if (self:GetNWBool( "isWoke" )) then
 		if self:GetSkin() == 1 then

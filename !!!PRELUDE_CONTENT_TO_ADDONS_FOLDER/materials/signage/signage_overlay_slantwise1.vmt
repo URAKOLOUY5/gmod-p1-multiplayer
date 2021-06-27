@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/signage_overlay_slantwise1"
+	"$surfaceprop"	"glass"
+	"$decal"		"1"
+	"$selfillum"	"1"
+	"%keywords"		"portal,prelude"
+}

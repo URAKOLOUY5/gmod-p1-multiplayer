@@ -1,0 +1,89 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "prelude.level_05_test_13_solution-1"
+    {
+      time 0.486667 3.104490
+      param "prelude.level_05_test_13_solution-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "prelude.level_05_test_13_solution-2"
+    {
+      time 3.386667 5.370975
+      param "prelude.level_05_test_13_solution-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "prelude.level_05_test_13_solution-3"
+    {
+      time 5.520000 12.182109
+      param "prelude.level_05_test_13_solution-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "prelude.level_05_test_13_solution-4"
+    {
+      time 12.113334 16.770679
+      param "prelude.level_05_test_13_solution-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "prelude.level_05_test_13_solution-5"
+    {
+      time 17.493334 19.836079
+      param "prelude.level_05_test_13_solution-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.040000 0.230000
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Prelude.level_05_test_13_solution-6"
+    {
+      time 20.095238 21.282948
+      param "Prelude.level_05_test_13_solution-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_05_test_13_solution-7"
+    {
+      time 21.500000 22.806894
+      param "Prelude.level_05_test_13_solution-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "28"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

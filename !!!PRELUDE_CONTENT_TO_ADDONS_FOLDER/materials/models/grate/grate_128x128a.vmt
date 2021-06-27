@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"metal/metalgrate018"
+	"$surfaceprop"			"metalgrate"
+	
+	"$alphatest"			"1"
+	"$AlphaTestReference"		"0.3"
+	"$AllowAlphaToCoverage"		"1"
+	"$nodecal"				"1"
+	
+	"%compilepassbullets"	"1"
+	"%keywords"				"portal,prelude"
+}

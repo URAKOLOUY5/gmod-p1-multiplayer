@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signage/domokun_drawing"
+	"$translucent"	"1"
+	"$decal"		"1"
+	"$decalscale"	"1"
+	"%keywords"		"portal,prelude"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/effects/partyhat_blue"
+	"$bumpmap"		"models/effects/flat_normal"
+	"$model"		"1"
+	"%keywords"		"portal,prelude"
+}

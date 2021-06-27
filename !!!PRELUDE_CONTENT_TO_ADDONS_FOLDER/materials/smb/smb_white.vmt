@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"lights/white"
+	"$surfaceprop"	"default"
+	"$nocull"		"1"
+	"%keywords"		"portal,prelude"
+}

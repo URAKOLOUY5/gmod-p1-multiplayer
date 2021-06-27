@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/gibs/funnygibs01"
+	"$model"		"1"
+	"%keywords"		"portal,prelude"
+}

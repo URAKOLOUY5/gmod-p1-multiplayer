@@ -1,0 +1,100 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_02_test_04_entry-1"
+    {
+      time 0.500000 3.021088
+      param "Prelude.level_02_test_04_entry-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-2"
+    {
+      time 3.286667 5.670091
+      param "Prelude.level_02_test_04_entry-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-3"
+    {
+      time 5.766668 8.039094
+      param "Prelude.level_02_test_04_entry-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-4"
+    {
+      time 8.213335 11.204900
+      param "Prelude.level_02_test_04_entry-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-5"
+    {
+      time 11.326666 17.325554
+      param "Prelude.level_02_test_04_entry-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-6"
+    {
+      time 17.253334 18.505352
+      param "Prelude.level_02_test_04_entry-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-7"
+    {
+      time 19.346664 22.038568
+      param "Prelude.level_02_test_04_entry-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_02_test_04_entry-8"
+    {
+      time 21.826670 24.644991
+      param "Prelude.level_02_test_04_entry-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.ding_on"
+    {
+      time 0.053333 0.243333
+      param "Prelude.ding_on"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

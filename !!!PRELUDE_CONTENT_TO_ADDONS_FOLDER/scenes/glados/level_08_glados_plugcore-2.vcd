@@ -1,0 +1,46 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_plugcore-6"
+    {
+      time 0.093333 4.369410
+      param "Prelude.level_08_glados_plugcore-6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_plugcore-8"
+    {
+      time 9.046668 12.072745
+      param "Prelude.level_08_glados_plugcore-8"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_plugcore-7"
+    {
+      time 4.653333 8.768276
+      param "Prelude.level_08_glados_plugcore-7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+      cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

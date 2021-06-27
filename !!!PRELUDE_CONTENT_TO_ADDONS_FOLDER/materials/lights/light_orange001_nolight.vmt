@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"lights/light_orange001"
+	"$surfaceprop"	"glass"
+	"$reflectivity"	"[0 0 0]"
+	"$nodecal"		"1"
+	"%keywords"		"portal,prelude"
+}

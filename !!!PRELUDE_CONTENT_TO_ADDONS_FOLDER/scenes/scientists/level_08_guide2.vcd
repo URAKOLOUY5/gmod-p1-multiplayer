@@ -1,0 +1,323 @@
+// Choreo version 1
+actor "scientist_17"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_guide2-1"
+    {
+      time 0.100000 1.794467
+      param "Prelude.level_08_guide2-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-3"
+    {
+      time 17.253334 19.163696
+      param "Prelude.level_08_guide2-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2a"
+    {
+      time 2.273333 3.814988
+      param "Prelude.level_08_guide2-2a"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2b"
+    {
+      time 3.826666 5.356757
+      param "Prelude.level_08_guide2-2b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2c"
+    {
+      time 5.360000 6.711270
+      param "Prelude.level_08_guide2-2c"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2d"
+    {
+      time 6.713333 7.610567
+      param "Prelude.level_08_guide2-2d"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2e"
+    {
+      time 7.613333 8.845692
+      param "Prelude.level_08_guide2-2e"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2f"
+    {
+      time 8.846666 10.187142
+      param "Prelude.level_08_guide2-2f"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2g"
+    {
+      time 10.193334 11.187869
+      param "Prelude.level_08_guide2-2g"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2h"
+    {
+      time 11.193334 14.160590
+      param "Prelude.level_08_guide2-2h"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Prelude.level_08_guide2-2i"
+    {
+      time 14.433334 16.735920
+      param "Prelude.level_08_guide2-2i"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time -0.006667 19.160002
+      param "!player"
+    }
+  }
+  channel "face at"
+  {
+    event face "FacePlayer"
+    {
+      time 0.000000 19.148149
+      param "!player"
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "G_medpuct_mid"
+    {
+      time 0.666667 2.633334
+      param "G_medpuct_mid"
+      absolutetags playback_time
+      {
+        "apex" 0.137931
+        "accent" 0.258621
+        "loop" 0.396552
+        "end" 0.517241
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "accent" 0.258621
+        "loop" 0.396552
+        "end" 0.517241
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "G_lefthandmotion"
+    {
+      time 2.111111 4.077778
+      param "G_lefthandmotion"
+      absolutetags playback_time
+      {
+        "apex" 0.224138
+        "accent" 0.482759
+        "loop" 0.517241
+        "end" 0.724138
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.224138
+        "accent" 0.482759
+        "loop" 0.517241
+        "end" 0.724138
+      }
+    }
+    event gesture "G_righthandmotion"
+    {
+      time 5.333333 7.300000
+      param "G_righthandmotion"
+      absolutetags playback_time
+      {
+        "apex" 0.241379
+        "accent" 0.517241
+        "loop" 0.689655
+        "end" 0.775862
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.241379
+        "accent" 0.517241
+        "loop" 0.689655
+        "end" 0.775862
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "G_look"
+    {
+      time 3.833333 5.800000
+      param "G_look"
+      absolutetags playback_time
+      {
+        "apex" 0.172414
+        "accent" 0.258621
+        "loop" 0.344828
+        "end" 0.517241
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.172414
+        "accent" 0.258621
+        "loop" 0.344828
+        "end" 0.517241
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "b_OverHere_Left"
+    {
+      time 6.814815 8.614815
+      param "b_OverHere_Left"
+      absolutetags playback_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.188679
+        "extreme" 0.792453
+        "loop" 0.811321
+        "end" 0.830189
+      }
+    }
+    event gesture "g_fist"
+    {
+      time 7.759260 10.059260
+      param "g_fist"
+      absolutetags playback_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.176471
+        "accent" 0.250000
+        "loop" 0.441176
+        "end" 0.588235
+      }
+    }
+    event gesture "G_righthandheavy"
+    {
+      time 9.037037 11.337037
+      param "G_righthandheavy"
+      absolutetags playback_time
+      {
+        "apex" 0.220588
+        "accent" 0.411765
+        "loop" 0.514706
+        "end" 0.617647
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.220588
+        "accent" 0.411765
+        "loop" 0.514706
+        "end" 0.617647
+      }
+    }
+    event gesture "g_pointleft_l"
+    {
+      time 10.148149 12.614816
+      param "g_pointleft_l"
+      absolutetags playback_time
+      {
+        "in" 0.068493
+        "loop" 0.397260
+        "end" 0.534247
+        "out" 0.712329
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.068493
+        "loop" 0.397260
+        "end" 0.534247
+        "out" 0.712329
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "G_righthandroll"
+    {
+      time 11.500000 14.133333
+      param "G_righthandroll"
+      absolutetags playback_time
+      {
+        "apex" 0.282051
+        "accent" 0.397436
+        "loop" 0.512821
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.282051
+        "accent" 0.397436
+        "loop" 0.512821
+        "end" 0.641026
+      }
+    }
+    event gesture "g_armsout"
+    {
+      time 15.000001 17.966667
+      param "g_armsout"
+      absolutetags playback_time
+      {
+        "apex" 0.068182
+        "accent" 0.227273
+        "loop" 0.420455
+        "end" 0.761364
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.068182
+        "accent" 0.227273
+        "loop" 0.420455
+        "end" 0.761364
+      }
+      sequenceduration 2.966667
+    }
+  }
+  faceposermodel "models\Humans\Group01\male_09.mdl"
+}
+
+mapname "C:\Jeux\Steam\steamapps\SourceMods\portal prelude\maps\level_08.bsp"
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "36"
+}
+fps 60
+snap off
+ignorePhonemes off

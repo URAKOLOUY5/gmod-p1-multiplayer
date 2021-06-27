@@ -1,0 +1,7 @@
++---------------+-------------------------------------------+
+| Track         |  License URL                              |
++---------------+-------------------------------------------+
+| gamestartup1  |  http://artlibre.org/licence.php/lal.html |
+| gamestartup2  |  http://artlibre.org/licence.php/lal.html |
+| artwork       |  http://artlibre.org/licence.php/lal.html |
++---------------+-------------------------------------------+

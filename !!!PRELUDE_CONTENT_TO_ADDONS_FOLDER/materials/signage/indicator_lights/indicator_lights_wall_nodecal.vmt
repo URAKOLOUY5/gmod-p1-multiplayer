@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"signage/indicator_lights/indicator_lights_wall"
+	"$surfaceprop"	"glass"
+	"$selfillum"	"1"
+	"%keywords"		"portal,prelude"
+
+	"Proxies" 
+	{ 
+		"ToggleTexture"
+		{
+			"toggleTextureVar"			"$basetexture"
+			"toggleTextureFrameNumVar"	"$frame"
+			"toggleTextureShouldWrap"	"0"
+		} 	
+	} 
+}

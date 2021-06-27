@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"smb/smb_bricks"
+	"$surfaceprop"	"brick"
+	"%keywords"		"portal,prelude"
+}

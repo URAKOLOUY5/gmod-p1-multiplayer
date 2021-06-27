@@ -1,0 +1,64 @@
+// Choreo version 1
+actor "Aperture_AI"
+{
+  channel "audio"
+  {
+    event speak "Prelude.level_08_glados_startfury-1"
+    {
+      time 0.100000 5.587301
+      param "Prelude.level_08_glados_startfury-1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_startfury-2"
+    {
+      time 6.340000 13.215670
+      param "Prelude.level_08_glados_startfury-2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_startfury-3"
+    {
+      time 13.653334 17.962063
+      param "Prelude.level_08_glados_startfury-3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_startfury-4"
+    {
+      time 18.360001 20.055351
+      param "Prelude.level_08_glados_startfury-4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Prelude.level_08_glados_startfury-5"
+    {
+      time 20.433332 22.320316
+      param "Prelude.level_08_glados_startfury-5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

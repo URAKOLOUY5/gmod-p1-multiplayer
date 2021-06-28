@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture"	"models/platform/platform_support"
-	"$surfaceprop"	"metal"
-	"%keywords"		"portal,prelude"
-}

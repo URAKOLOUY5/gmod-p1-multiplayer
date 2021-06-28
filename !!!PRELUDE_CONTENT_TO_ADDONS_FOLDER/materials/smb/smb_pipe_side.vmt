@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"smb/smb_pipe_side"
-	"$surfaceprop"	"metal"
-	"%keywords"		"portal,prelude"
-}
